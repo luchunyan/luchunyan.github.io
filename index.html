@@ -172,7 +172,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Startseite
+            Home
           </a>
         </li>
       
@@ -182,7 +182,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archiv
+            Archives
           </a>
         </li>
       
@@ -248,7 +248,7 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <span class="post-meta-item-text">Posted on</span>
             <time itemprop="dateCreated" datetime="2016-07-30T20:40:09+08:00" content="2016-07-30">
               2016-07-30
             </time>
@@ -279,9 +279,7 @@
       
         
           
-            <p>#1.语法</p>
-<p>##1.1 变量和常量</p>
-<h3 id="1-1-1-关键字"><a href="#1-1-1-关键字" class="headerlink" title="1.1.1 关键字"></a>1.1.1 关键字</h3><p><img src="/img/java/1.jpg" alt="java"><br>Java 关键字是区分大小写的哦！所以 void 是关键字，但 Void 就不是了~~</p>
+            <h1 id="1-语法"><a href="#1-语法" class="headerlink" title="1.语法"></a>1.语法</h1><h2 id="1-1-变量和常量"><a href="#1-1-变量和常量" class="headerlink" title="1.1 变量和常量"></a>1.1 变量和常量</h2><h3 id="1-1-1-关键字"><a href="#1-1-1-关键字" class="headerlink" title="1.1.1 关键字"></a>1.1.1 关键字</h3><p><img src="/img/java/1.jpg" alt="java"><br>Java 关键字是区分大小写的哦！所以 void 是关键字，但 Void 就不是了~~</p>
 <h3 id="1-1-2-Java标识符"><a href="#1-1-2-Java标识符" class="headerlink" title="1.1.2 Java标识符"></a>1.1.2 Java标识符</h3><p>标识符就是用于给 Java 程序中变量、类、方法等命名的符号。<br><img src="/img/java/2.png" alt="java1"><br>使用标识符时，需要遵守几条规则：</p>
 <ol>
 <li><p>标识符可以由字母、数字、下划线（_）、美元符（$）组成，但不能包含 @、%、空格等其它特殊字符，不能以数字开头。譬如：123name 就是不合法滴</p>
@@ -315,8 +313,7 @@
 <h3 id="1-1-9-Java中的注释"><a href="#1-1-9-Java中的注释" class="headerlink" title="1.1.9 Java中的注释"></a>1.1.9 Java中的注释</h3><p>在编写程序时，经常需要添加一些注释，用以描述某段代码的作用。</p>
 <p>一般来说，对于一份规范的程序源代码而言，注释应该占到源代码的 1/3 以上。因此，注释是程序源代码的重要组成部分，一定要加以重视哦！</p>
 <p>Java 中注释有三种类型：单行注释、多行注释、文档注释<br><img src="/img/java/20.jpg" alt="explation"></p>
-<p>##1.2 常用的运算符</p>
-<h3 id="1-2-1Java的算数运算符"><a href="#1-2-1Java的算数运算符" class="headerlink" title="1.2.1Java的算数运算符"></a>1.2.1Java的算数运算符</h3><p>算术运算符主要用于进行基本的算术运算，如加法、减法、乘法、除法等。<br><img src="/img/java/21.jpg" alt="suanshu"><br>其中，++ 和 – 既可以出现在操作数的左边，也可以出现在右边，但结果是不同滴<br>例1：<br><img src="/img/java/22.jpg" alt="zijia"><br>运行结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">a=6</div><div class="line">b=6</div></pre></td></tr></table></figure></p>
+<h2 id="1-2-常用的运算符"><a href="#1-2-常用的运算符" class="headerlink" title="1.2 常用的运算符"></a>1.2 常用的运算符</h2><h3 id="1-2-1Java的算数运算符"><a href="#1-2-1Java的算数运算符" class="headerlink" title="1.2.1Java的算数运算符"></a>1.2.1Java的算数运算符</h3><p>算术运算符主要用于进行基本的算术运算，如加法、减法、乘法、除法等。<br><img src="/img/java/21.jpg" alt="suanshu"><br>其中，++ 和 – 既可以出现在操作数的左边，也可以出现在右边，但结果是不同滴<br>例1：<br><img src="/img/java/22.jpg" alt="zijia"><br>运行结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">a=6</div><div class="line">b=6</div></pre></td></tr></table></figure></p>
 <p>例2：<br><img src="/img/java/23.jpg" alt="zijia1"><br>运行结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">a:6</div><div class="line">b:5</div></pre></td></tr></table></figure></p>
 <p>一定要注意哦！自增和自减运算符只能用于操作变量，不能直接用于操作数值或常量！例如 5++ 、 8– 等写法都是错误滴！<br>PS：% 用来求余数，也称为”取模运算符“</p>
 <h3 id="1-2-2-Java的赋值运算符"><a href="#1-2-2-Java的赋值运算符" class="headerlink" title="1.2.2 Java的赋值运算符"></a>1.2.2 Java的赋值运算符</h3><p>赋值运算符是指为变量或常量指定数值的符号。如可以使用 “=” 将右边的表达式结果赋给左边的操作数。<br><img src="/img/java/3.jpg" alt="fuzhi"></p>
@@ -400,7 +397,7 @@
           <div class="site-state-item site-state-posts">
             <a href="/archives">
               <span class="site-state-item-count">1</span>
-              <span class="site-state-item-name">Artikel</span>
+              <span class="site-state-item-name">posts</span>
             </a>
           </div>
 
@@ -447,7 +444,7 @@
 </div>
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
 </div>
 
 <div class="theme-info">
